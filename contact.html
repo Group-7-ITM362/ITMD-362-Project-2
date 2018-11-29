@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Contact Us</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link rel="stylesheet" media="screen" href="style/normalize.css" />
@@ -23,6 +23,22 @@
 		<a class="socialmedia" href="facebook.com"><img id="Facebook" src="images/facebook.png" alt="Facebook"/></a>
 		<a class="socialmedia" href="twitter.com"><img id="Twitter" src="images/twitter.png" alt="Twitter"/></a>
 		<a class="socialmedia" href="linkedin.com"><img id="LinkedIn" src="images/linkedin.png" alt="LinkedIn"/></a>
+	</div>
+	<div class="signupevent">
+	  <div class="signupevent">
+	    <form method="get" class='signUpForm' action="#null" autocomplete="on" onsubmit="sendcon()">
+          <div class='custNameInfo'>
+	        <p><label>First Name: <input type="text" name="firstName" required></label></p>
+            <p><label>Last Name: <input type="text" name="lastName" required></label></p>
+          </div>
+          <div class='custContactInfo'>
+	        <p><label>Email: <input type="email" name="email" pattern="^.+@.+$" required></label></p>
+			<p><label>Message: <textarea name="message" required></textarea></label></p>
+          </div>
+          <div class='submit'>
+            <p><input type="submit" value="Submit"></p>
+          </div>
+        </form>		
 	</div>
 	<footer>
 	  <a href="contact.html">Contact Us</a>
